@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DriveApp",
+            "request": "launch",
+            "mainClass": "net.rochefolle.googledrive.DriveApp",
+            "projectName": "jscdrive"
+        }
+    ]
+}
