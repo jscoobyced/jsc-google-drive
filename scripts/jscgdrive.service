@@ -1,0 +1,15 @@
+[Unit]
+Description=Deamon for JSC Google Drive
+After=network.target syslog.target local-fs.target
+
+[Service]
+Type=oneshot
+User=crochefolle
+Group=crochefolle
+ExecStart=/usr/local/jscgdrive/startup.sh
+RemainAfterExit=yes
+PIDFile=/usr/local/jscgdrive/jscdrive.pid
+StandardOutput=syslog
+
+[Install]
+WantedBy=multi-user.target
