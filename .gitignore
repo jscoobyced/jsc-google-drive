@@ -8,3 +8,7 @@ build
 drive
 **/credentials.json
 **/bin
+
+/gradle
+gradlew
+gradlew.bat
