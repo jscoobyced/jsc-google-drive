@@ -1,14 +1,14 @@
 # Ignore Gradle project-specific cache directory
 .gradle
-
-# Ignore Gradle build output directory
-build
-
-.data
-drive
-**/credentials.json
-**/bin
-
 /gradle
 gradlew
 gradlew.bat
+
+# Ignore Gradle build output directories
+/build
+/bin
+
+# Ignore private data
+.data
+drive
+**/credentials.json
